@@ -1,0 +1,491 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HOME SECTION */
+html{
+    scroll-behavior: smooth;
+}
+
+
+#home{
+    background-size: cover;
+    background-position:center ;
+    height: 100vh;
+}
+
+#home .content header {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    height: 50px;
+}
+
+#home .content header .contentHeader{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+
+#home .content header .contentHeader nav ul {
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+
+
+
+#home .content header .contentHeader nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-weight:  400;
+    transition: .5s;
+ }
+
+ #home .content header .contentHeader nav ul a:hover{
+     color: #1414a0; 
+     /* a editar */
+ }
+ 
+ #home .content .presentation .welcome{
+     font-size: 25px;
+     margin-bottom: 20px;
+     letter-spacing: 4px;
+ }
+
+ #home .content .presentation{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#home .content .presentation h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+#home .content .presentation h2 span{
+    color:rgb(9, 4, 77);
+}
+
+#home .content .presentation .description{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+#iconNav{
+    display: none;
+    color: #fff;
+}
+#home .content .presentation a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+
+#home .content .presentation a:hover{
+    background-color:rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    color: #fff; 
+}
+
+/* ABOUT ME SECTION */
+
+#aboutMe {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    display: flex;
+}
+
+#aboutMe .imageContainer{
+    max-width: 400px;
+    margin-right: 80px ;
+}
+
+#aboutMe .imageContainer img{
+    padding: 5px;
+    width: 100%;
+
+}
+
+
+#aboutMe .aboutMe{
+    margin: 0 40px;
+}
+
+
+#aboutMe .aboutMe .aboutMeTitle{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    margin-bottom: 20px;
+    text-decoration-thickness: 5px;
+
+}
+
+#aboutMe .aboutMe h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: rgb(9, 4, 77);
+
+
+}
+
+#aboutMe .aboutMe h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 20px 0 ;
+    letter-spacing: 1px;
+
+}
+
+#aboutMe .aboutMe p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    margin: 20px 0 ;
+
+}
+
+
+#aboutMe .aboutMe a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 30px ;
+    transition: .5s;
+
+}
+
+
+#aboutMe .aboutMe a:hover{
+    background-color:rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    color: #fff; 
+}
+
+
+
+/* SKILLS SECTION */
+
+
+#skills{
+    padding: 100px 15px;
+    text-align: center;
+}
+
+#skills .skillsTitle{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 5px;
+
+}
+
+#skills .row{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 30px auto;
+}
+
+#skills .row .skill{
+    width: 200px;
+    padding: 30px;
+    margin: 20px 5px;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+#skills .row .skill:hover {
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a; 
+}
+
+
+#skills .row .skill h4{
+font-size: 25px;
+margin-top: 25px;
+}
+
+
+#skills .row .skill .icon{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* PROYECTS SECTION */ 
+#proyects {
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+
+#proyects .proyectsTitle{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 5px;
+}
+
+#proyects .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+
+}
+
+#proyects .row .proyect{
+    padding: 30px;
+    max-width: 450px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+    font-size: 20px;
+}
+
+#proyects .row .proyect:hover {
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a; 
+}
+
+#proyects .row .proyect .proyectInfo{
+    align-items: center;
+    justify-content: center;
+    font-size: 20x;
+    display: grid;
+}
+
+#proyects .row .proyect .proyectInfo h4{
+    margin-bottom: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+#proyects .row .proyect .proyectInfo a{
+    display: flex;
+    justify-content: center;
+}
+
+#proyects .row .proyect .proyectInfo .imageProyectContainer p{
+    display: grid;
+    justify-content: center;
+}
+
+
+
+#proyects .row .proyect .proyectInfo .imageProyectContainer {
+    max-width: 400px;
+    margin-right: 80px ;
+    display: grid;
+    margin: 20px;
+}
+
+
+#proyects .row .proyect .proyectInfo .imageProyectContainer img {
+    padding: 5px;
+    width: 100%;
+}
+
+/* CONTACT ME SECTION */ 
+
+#contactMe {
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#contactMe .contactMeTitle{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 5px;
+    margin-bottom: 30px;
+}
+
+#contactMe .myData{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+}
+
+
+#contactMe .myData p {
+    font-size: 25px;
+    margin: 35PX;
+}
+
+#contactMe .myData p a{
+    color: black;
+    text-decoration: none;
+}
+
+/* RESPONSIVE SECTION */ 
+@media screen and (max-width:800px){
+
+    nav{
+        display: none;
+
+    }
+
+
+    nav.responsive{
+        display: block;
+        background-color: rgba(0,0,0,.7);
+        width: 100%;
+        position: absolute;
+        top:50px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }    
+
+
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+
+    #iconNav{
+        display: block;
+    }
+
+    #home .content .presentation h2 {
+        font-size: 40px;
+    }
+
+    #aboutMe{
+        padding: 50px 0;
+        display: block;
+    }
+
+    #aboutMe .imageContainer{
+        margin: auto;
+        max-width: 200px;
+    }
+
+    #aboutMe .imageContainer img{
+        padding: 4px;
+    }
+
+    #aboutMe .aboutMe .aboutMeTitle{
+        text-align: center;
+    }
+
+    #aboutMe .aboutMe {
+        text-align: center;
+    }
+
+    #skills{
+        padding: 50px 15px;
+    }
+
+    #skills .row{
+        display: grid;
+        justify-content: center;
+    }
+
+    #skills .row .skill{
+        margin: 10px;
+    }
+
+    #proyects{
+        padding: 50px 0;
+    }
+
+    #proyects .row{
+        display: block;
+        margin: 20px;
+    }
+
+    #proyects .row .proyect{
+        margin: 30px auto;
+    }
+
+    #contactMe{
+        padding: 50px 10px;
+    }
+
+    #contactMe .myData{
+        display: block;
+
+    }
+}

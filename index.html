@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Reusable Landing Page</title>
+</head>
+<body>
+
+    <!-- HOME SECTION -->
+
+    <section id="home">
+        <div class="content">
+            <header>
+                <div class="contentHeader">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#home" onclick="select(this)">Home</a></li> 
+                            <li><a href="#aboutMe" onclick="select(this)" >About me</a></li> 
+                            <li><a href="#skills" onclick="select(this)">Skills</a></li> 
+                            <li><a href="#proyects" onclick="select(this)">Proyects</a></li> 
+                            <li><a href="#contactMe" onclick="select(this)">Contact me</a></li> 
+                        </ul>
+    
+                    </nav>
+                    <!-- ICONS RESPOSNIVE MENU -->
+                    <div id="iconNav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>                
+    
+                </div>
+    
+            </header>
+            <div class="presentation">
+                <p class="welcome">Welcome</p>
+    
+                <h2>I'm <span>"Name"</span>, "Profession"</h2>
+                
+               <p class="description">  This is my personal website with all my information.</p>
+               <a download="" href="EnglishCV.docx">Download CV</a>
+
+               
+            </div>
+    
+    
+        </div>
+    </section>
+    
+    <HR>   
+         <!-- ABOUT ME SECTION -->
+    <section id="aboutMe">
+        <div class="imageContainer">
+            <img src="Avatar-Maker.png" alt="">
+        </div>
+
+        <div class="aboutMe">
+            <p class="aboutMeTitle">About me</p>
+            <h2>Name</h2>
+            <h3>Profession</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quia quidem obcaecati deleniti. Pariatur corporis quam similique rem necessitatibus est corrupti fuga consequuntur neque nisi veritatis recusandae, cumque fugit iusto?</P>
+        </div>
+    </section>
+
+   
+
+
+    <HR>
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+            <h3 class="skillsTitle">Skills :</h3>
+            <p>(here you can put whatever skill you want)</p>
+            <div class="row">
+    
+                <div class="column">
+                    <div class="skill">
+                        <span class="icon"><i class="fa-brands fa-square-js"></i></span>
+                        <h4>JavaScript</h4>
+                    </div>
+                    
+                    
+                    <div class="skill">
+                        <span class="icon"><i class="fa-brands fa-react"></i></span>
+                        <h4>ReactJs</h4>
+                    </div>
+        
+                    
+                    <div class="skill">
+                        <span class="icon"><i class="fa-solid fa-coins"></i></span>
+                        <h4>MySQL</h4>
+                    </div>
+                    
+                    
+                    <div class="skill">
+                        <span class="icon"><i class="fa-brands fa-node"></i></span>
+                        <h4>NodeJs</h4>
+                    </div>
+                </div>
+     
+                <div class="column">
+                    <div class="skill">
+                        <span class="icon"><i class="fa-brands fa-git"></i></span>
+                        <h4>Git</h4>
+                    </div>
+                    
+                    
+                    <div class="skill">
+                        <span class="icon"><i class="fa-brands fa-github"></i></span>
+                        <h4>GitHub</h4>
+                    </div>
+        
+                    
+                    <div class="skill">
+                        <span class="icon"><i class="fa-brands fa-css3"></i></span>
+                        <h4>CSS</h4>
+                    </div>
+                    
+                    
+                    <div class="skill">
+                        <span class="icon"><i class="fa-brands fa-html5"></i></span>
+                        <h4>HTML</h4>
+                    </div>
+                </div>
+    
+    
+    
+                
+            </div>
+        </section>
+    
+        <HR>   
+
+
+
+
+    <!-- PROYECTS SECTION -->
+
+            <section id="proyects">
+                <h3 class="proyectsTitle">My proyects</h3>
+                <div class="row">
+                    <div class="proyect">
+                            <div class="proyectInfo">
+                                <h4>Description of the proyect</h4>
+                                <a href="#">Link to that proyect</a>
+
+                                <div class="imageProyectContainer">
+                                    <img src="Avatar-Maker.png" alt="">
+                                    <p>"image of the proyect"</p>
+
+                                </div>
+
+
+                            </div>
+                    </div>
+        
+                    <div class="proyect">
+                            <div class="proyectInfo">
+                                <h4>Description of the proyect</h4>
+                                <a href="#">Link to that proyect</a>
+                                
+                                <div class="imageProyectContainer">
+                                    <img src="Avatar-Maker.png" alt="">
+                                    <p>"image of the proyect"</p>
+                                </div>
+
+                            </div>
+                    </div>
+        
+                    <div class="proyect">
+                            <div class="proyectInfo">
+                                <h4>Description of the proyect</h4>
+                                <a href="#">Link to that proyect</a>
+
+                                <div class="imageProyectContainer">
+                                    <img src="Avatar-Maker.png" alt="">
+                                    <p>"image of the proyect"</p>
+                                </div>
+
+
+                            </div>
+                    </div>
+        
+
+                </div>
+        
+            </section>
+
+
+
+        <!-- CONTACT ME SECTION -->
+        <section id="contactMe">
+            <h3 class="contactMeTitle">Contact me</h3>
+            <div class="myData">
+    
+                <p>Email: 
+                    <a href="mailto:uli.magnarelli@gmail.com">uli.magnarelli@gmail.com</a>
+                </p>
+    
+                <p>Phone: 11-5107-6712</p>
+    
+                <p><a href="https://www.linkedin.com/in/ulises-magnarelli-b03032208/">LinkedIn</a>
+                </p>
+
+                <p><a href="https://github.com/ulises-magnarelli">Github</a></p>
+            </div>
+        </section>
+    
+    
+    
+    
+        <script src="/js/scripts.js"></script>
+
+
+
+
+    
+
+</body>
+</html>
